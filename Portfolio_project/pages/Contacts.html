@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<!-- HEAD -->
+
+<head>
+	<meta charset="utf-8">
+
+	<!-- FONTS -->
+
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+
+	<!-- FONTAWESOME -->
+
+	<script src="https://use.fontawesome.com/c41b5cf4c1.js"></script>
+
+	<!-- DEVICON -->
+
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+
+	<!-- JS -->
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="../js/script.js"></script>
+
+	<!-- CSS -->
+
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/media.css">
+
+	<link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+	<title>Contacts</title>
+</head>
+
+<!-- BODY -->
+
+<body>
+
+	<!-- HEADER -->
+
+	<header class="inner-header">
+		
+		<h1 class="main-title">сontacts</h1>
+
+		<!-- LOGO & NAV -->
+
+		<div class="logo-nav-box">
+
+			<!-- LOGO -->
+
+			<div class="logo">
+				<a href="../index.html">Gleb Movchan</a>
+			</div>
+
+
+			<!-- MAIN MENU -->
+
+			<ul class="main-menu">
+
+				<li class="menu-link"> 
+
+					<span class="menu-link-drop">Menu</span>
+
+					<!-- ANIMATED BURGER -->
+
+					<div class="menu-icon">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+
+					<!-- DROPDOWN-MENU -->
+
+					<ul class="dropdown-menu">
+						<li><a href="../pages/blog.html">Blog</a></li>
+						<li><a href="../pages/project.html" class="active">Project</a></li>
+						<li class="line-through-link"><span>Contacts</span></li>
+
+						<!-- SOCIAL LINKS -->
+
+						<li>
+							<p class="dropdown-menu-title">Follow me</p>
+							<ul class="social-list">
+								<li>
+									<a href="https://vk.com/id50286840" class="vk"></a>
+								</li>
+								<li>
+									<a href="#" class="fb"></a>
+								</li>
+								<li>
+									<a href="#" class="google"></a>
+								</li>
+
+							</ul>
+
+						</li>
+
+					</ul>
+
+				</li>
+
+			</ul>
+
+		</div>
+
+	</header>
+
+	<!-- MAIN -->
+
+	<main>
+
+		<section>
+			
+			<h1 class="title">My Contacts</h1>
+			<p class="section-descrpt">This page was created to show my ability to work with forms.</p>
+
+		</section>
+
+		<!-- FORM SECTION -->
+
+		<section class="contacts-section">
+			
+			<div class="contact-wrapp">
+
+				<div class="form-box">
+
+					<p class="title">Leave your Reply</p>
+
+					<form>
+
+						<!-- CONTACTS FORM -->
+
+						<fieldset>
+
+							<label class="contacts-form">
+								<legend>Name (required)</legend>
+								<input type="text" name="username">
+							</label>
+
+							<label class="contacts-form">
+								<legend>Email (required)</legend>
+								<input type="text" name="userpass">
+							</label>
+
+							<label class="contacts-form">
+								<legend>Subject</legend>
+								<input type="text" name="userpass">
+							</label>
+
+							<!-- MESSAGE FORM -->
+
+							<label class="massage-form">
+								<legend>Comment</legend>
+								<textarea type="text" name="username"class="message-box"></textarea>
+							</label>
+							<label class="check-box">
+								<input type="checkbox">it’s very important and I want you to contact me <br />
+														immediately
+							</label>
+
+							<a href="#" class="button">Send</a>
+
+						</fieldset>
+
+					</form>
+
+				</div>
+
+				<!-- MAP -->
+				
+				<div class="contacts-map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.25011598532!2d36.33410631542154!3d50.02540897941899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a76316981707%3A0x378ab22d23b1d9e7!2z0JPQtdGA0L7QtdCyINGC0YDRg9C00LA!5e0!3m2!1sru!2sua!4v1479812618487" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+					
+					<div class="adress-contact-box">
+
+						<h2 class="title">Give me a call</h2>
+						<p>68a Heroiv pratsi st,<br />
+							Kharkiv Oblast,
+							Ukraine</p>
+						<p>38 (063) 415 89 81</p>
+						<p>(057) 365 05 09</p>
+						<p>gameplayy2</p>
+
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+		
+	</main>
+
+	<!-- FOOTER -->
+
+	<footer>
+
+		<div>
+			<p>&#169; Gleb Movchan in the Sky</p>
+		</div>
+
+		<div>
+			<p>Feel free to email me: <a href="mailto:glebmovchan94@gmail.com">glebmovchan94@gmail.com</a></p>
+		</div>
+
+	</footer>
+
+	<!-- JS -->
+
+	<!-- FADE IN -->
+
+	<script type="text/javascript">
+	    $(document).ready(function() {
+	            $("body").css("display", "none");
+	      	    $("body").fadeIn(1500);
+	    });
+	</script>
+
+
+</body>

@@ -1,0 +1,427 @@
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+        /* NAVIGATION */
+
+    	nav>a {
+    		margin-right: 35px;
+    	}
+
+    	/* SKILLS */
+
+    	.skills-list li {
+			padding: 20px;
+    	}
+		.skills-list li:nth-child(4), 
+		.skills-list li:nth-child(5) {
+			height: 250px;
+		}
+
+		/* PROJECT */
+
+		.project {
+			height: 330px;
+		}
+		.project-descrpt {
+			top: 30%;
+		}
+
+		/* BLOG */
+
+		.last-post-text,
+		.last-post-img {
+			display: inline-block;
+			vertical-align: top;
+			width: calc(50% - 13px);
+		}
+		.last-post-text {
+			text-align: left;
+			padding: 10px;
+		}
+		.last-post-date {
+			color: #847B7B;
+			font-size: 11px;
+			line-height: 15px;
+			margin-bottom: 10px;
+		}
+		.last-post-text .title {
+			font-size: 24px;
+			line-height: 27px;
+			margin-bottom: 10px;
+		}
+		.last-post-text .section-decrpt {
+			margin-bottom: 35px;
+			font-size: 11px;
+			line-height: 15px;
+			height: 60px;
+		}
+		.last-post-text .button {
+			padding: 8px 50px;
+			font-size: 12px;
+		}
+
+        /* BLOG PAGE */
+
+        .post-box-descrpt {
+            line-height: 25px;
+        }
+	}
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    	/* MAIN MENU */
+
+    	nav {
+    		display: none;
+    	}
+    	.logo {
+			font-size: 21px;
+			line-height: 24px;
+		}
+		.main-menu {
+			display: inline-block;
+		}
+
+    	/* SKILLS */
+
+    	.skills-list li {
+    		background-color: #fff;
+    		height: 85px;
+    		margin-bottom: 20px;
+    		width: calc(20% - 44px);
+    	}
+    	.skills-list li:nth-child(4), 
+		.skills-list li:nth-child(5) {
+			height: 85px;
+		}
+    	.skills-list .title {
+    		display: none;
+    	}
+    	.skills-list p {
+    		display: none;
+    	}
+
+    	/* BLOG */
+
+    	.last-post-text,
+		.last-post-img {
+			display: block;
+			width: 100%
+		}
+		.last-post-text {
+			padding: 10px 10px 30px;
+			text-align: center;
+		}
+		.last-post-text .section-decrpt {
+			height: 50px;
+			margin-bottom: 30px;
+			width: 95%;
+		}
+
+		/* CONTACTS */
+
+		.contacts-links li p {
+			font-size: 15px;
+		}
+
+        /* PROJECT PAGE */
+
+        .slick-gallery {
+            height: 380px;
+        }
+
+        /* BLOG PAGE */
+
+        .post-box-descrpt {
+            font-size: 14px
+            line-height: 22px;
+        }
+        .blog-box .title {
+            font-size: 22px;
+            line-height: 25px;
+        }
+
+        /* POST PAGE */
+
+        .inner-section .post-section {
+            padding: 70px 5%;
+        }
+        .post-text {
+            line-height: 26px;
+        }
+        .post-form .form-box {
+            width: 100%;
+        }
+        .post-quote {
+            line-height: 40px;
+        }
+
+        /* CONTACTS PAGE */
+
+        .contacts-section {
+            padding: 0 5% 100px;
+        }
+        .form-box,
+        .contacts-map {
+            display: block;
+            width: 100%;
+        } 
+        .contacts-section .form-box {
+            margin-bottom: 90px;
+        }
+        .contacts-section .button {
+            text-align: center;
+        }
+        .contacts-map iframe {
+            display: none;
+        }
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+
+    	/* MAIN STYLES */
+
+	   .main-title {
+    		font-size: 64px;
+    		line-height: 67px;
+    	}
+    	section {
+    		padding: 150px 10% 100px;
+    	}
+    	.section-descrpt {
+    		font-size: 13px;
+    		line-height: 26px;
+    	}
+    	.title {
+    		font-size: 42px;
+    		line-height: 45px;
+    	}
+    	.button {
+    		padding: 20px 80px;
+            font-size: 12px;
+            line-height: 15px;
+    	}
+
+    	/* ABOUT ME SECTION */
+
+    	.about-me {
+    		padding: 150px 10% 100px;
+    	}
+
+    	/* SKILLS */
+        
+        .education-list {
+            font-size: 13px;
+            line-height: 26px; 
+        }
+    	.skills-list li i {
+    		font-size: 50px;
+    	}
+
+    	/* PROJECT */
+
+    	.project {
+    		height: 300px;
+    	}
+
+    	/* BLOG */
+
+    	.blog {
+    		padding: 150px 10% 100px;
+    	}
+
+    	/* CONTACTS */
+
+    	.contacts-links li {
+    		display: block;
+    		width: 100%;
+    		margin-bottom: 40px;
+    	}
+    	.contacts .section-dercrpt {
+    		margin-bottom: 60px;
+    	}
+
+        /* BLOG PAGE */
+
+        .blog-box {
+            margin: 0;
+        }
+        .post-box-descrpt {
+            line-height: 25px;
+        }
+
+        /* BLOG PAGE */
+
+        .blog-box {
+            display: block;
+            width: 100%;
+        }
+
+        /* POST PAGE */
+
+        .post-main-img {
+            display: none;
+        }
+        .post-imgs {
+            width: 100%;
+            height: 550px;
+        }
+        .post-text {
+            text-align: justify;
+        }
+        .post-quote {
+            text-align: center;
+        }
+        .left,
+        .right {
+            float: none;
+            display: block;
+            margin: 0 0 30px 0;
+        }
+
+        /* FOOTER */
+
+        footer {
+            display: none;
+        }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    	/* MAIN STYLES */
+
+        .title {
+            font-size: 34px;
+            line-height: 37px;
+        }
+    	.main-menu {
+    		padding: 17px 4%;
+    	}
+    	.logo {
+    		font-size: 14px;
+    		line-height: 19px;
+    	}
+    	.menu-link-drop {
+			display: none;
+		}
+		.dropdown-menu {
+			top: 34px;
+			right: -30px;
+		}
+        .button {
+            padding: 20px 0;
+            width: 100%;
+            display: block;
+            font-size: 12px;
+            line-height: 15px;
+        }
+
+		/* SECTION STYLES */
+
+    	section {
+    		padding: 70px 5%;
+    	}
+    	.section-descrpt {
+    		text-align: justify;
+    	}
+
+		/* LANDING HEADER STYLES */
+
+    	.large-header {
+    		height: 50%;
+    	}
+    	.main-title {
+    		font-size: 40px;
+    		line-height: 43px;
+    		top: 53%;
+    	}
+
+    	/* SKILLS */
+
+    	.skills-list li i {
+    		font-size: 35px;
+    	}
+
+    	/* PROJECT */
+
+    	.project {
+    		height: 180px;
+    	}
+    	.project-descrpt {
+    		margin: 0 5% 100px;
+    	}
+
+        .project .button{
+            padding: 12px 0;
+        }
+
+    	/* BLOG */
+        .last-post-box {
+            margin-bottom: 50px;
+        }
+		.last-post-text .section-decrpt {
+			margin-bottom: 50px;
+		}
+        .last-post-text {
+            padding: 10px 10px 15px;
+        }
+        .last-post-text .button {
+            padding: 8px 0;
+            width: 93%;
+            font-size: 12px;
+            display: block;
+        }
+
+        /* PROJECT PAGE */
+
+        .slick-gallery {
+            height: 270px;
+        }
+
+        /* POST PAGE */
+
+        .post-imgs {
+            height: 380px;
+            margin-bottom: 30px;
+        }
+        .post-form .title {
+            font-size: 30px;
+            line-height: 33px;
+        }
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    	/* MAIN STYLES */
+
+        .logo {
+			font-size: 13px;
+			line-height: 17px;
+		}
+		.dropdown-menu {
+			right: -45px;
+		}
+		.main-title {
+    		font-size: 38px;
+    		line-height: 41px;
+    		top: 53%;
+    	}
+
+    	/* SKILLS */
+
+    	.skills-list li i {
+    		font-size: 30px;
+    	}
+
+    	/* BLOG */
+
+		.last-post-text .section-decrpt {
+			margin-bottom: 70px;
+		}
+    }

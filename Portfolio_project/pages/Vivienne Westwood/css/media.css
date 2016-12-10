@@ -1,0 +1,348 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.landing-slogan {
+		font-size: 46px;
+		line-height: 49px;
+	}
+	.navigation>li>a {
+		font-size: 16px;
+		line-height: 19px;
+	}
+	.navigation li {
+		margin-left: 9%;
+	}
+	.navigation-logo {
+		margin-top: 16px;
+	}
+	footer div {
+		font-size: 13px;
+		line-height: 16px;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	section {
+		margin-top: 40px;
+	}
+	.navigation-links {
+		display: none;
+	}
+	.menu-link {
+		display: inline-block;
+		text-align: right;
+		margin: 25px 3% 20px;
+	}
+	.dropdown-hamburger-menu {
+		top: 61px;
+		list-style: none;
+		text-align: right;
+		padding: 10px 30px 10px 10px;
+		min-width: 180px;
+	}
+	.dropdown-hamburger-menu li {
+		padding-bottom: 15px;
+	}
+	.dropdown-hamburger-menu li a {
+		color: #fff;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+	.navigation-logo {
+		margin-bottom: 0;
+	}
+	.navigation-logo img {
+		width: 15%;
+	}
+	.landing-header {
+		height: 70%;
+		min-height: 70%;
+	}
+	.landing-slogan {
+		font-size: 35px;
+		line-height: 38px;
+		height: 53px;
+	}
+	.slogan h1 {
+		font-size: 37px;
+		line-height: 40px;
+	}
+	.slogan h2 {
+		font-size: 30px
+		line-height: 33px;
+	}
+	.collection-titles {
+		margin-bottom: 40px;
+	}
+	.collection-titles p {
+		font-size: 40px;
+		line-height: 43px;
+	}
+	.collection-block {
+		display: block;
+		width: 100%;
+	}
+	.collection-block li {
+		display: inline-block;
+		vertical-align: top;
+		width: calc(50% - 13px);
+		margin: 0 5px 10px 5px;
+	}
+	.small-item {
+		height: 100%;
+	}
+	.lagre-item {
+		overflow: hidden;
+		height: 666px;
+	}
+	.collection-block li:hover .collection-title {
+		display: none;
+	}
+
+	/* SHOP PAGE */
+
+	.shp-btn-1,
+	.shp-btn-2 {
+		margin-top: 75px;
+	}
+	.shp-btn-block-1,
+	.shp-btn-block-2 {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.shp-btn-hov-1,
+	.shp-btn-hov-2 {
+		right: 0;
+		background-color: transparent;
+		height: 0;
+	}
+	.shp-btn-hov-1 p,
+	.shp-btn-hov-2 p {
+		display: none;
+	}
+		footer div {
+		
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+	section {
+		margin: 40px 5%;
+	}
+	.navigation-links {
+		display: none;
+		margin: 10px 3% 16px;
+	}
+	.navigation-logo {
+		margin-bottom: 0;
+	}
+	.navigation-logo img {
+		width: 15%;
+	}
+	.menu-link {
+		display: inline-block;
+		text-align: right;
+		margin-top: 18px;
+	}
+	.dropdown-hamburger-menu {
+		top: 44px;
+		list-style: none;
+		text-align: right;
+		padding: 10px 30px 10px 10px;
+		min-width: 180px;
+	}
+	.dropdown-hamburger-menu li {
+		padding-bottom: 15px;
+	}
+	.dropdown-hamburger-menu li a {
+		color: #fff;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+	.landing-header {
+		background-image: url(../img/media_bg.jpg);
+		min-height: 50%;
+		height: 50%;
+	}
+	.landing-slogan {
+		display: none;
+	}
+	.logo,
+	.landing-header .logo {
+		display: block;
+		width: 225px;
+		margin: 60px auto;
+	}
+	.landing-header .logo {
+		margin: 0 auto;
+		padding-top: 60px;
+	}
+	.slogan {
+		display: none;
+	}
+	.header-article {
+		display: none;
+	}
+	.collection-titles {
+		margin-bottom: 40px;
+	}
+	.collection-titles {
+		text-align: center;
+		width: 100%;
+		font-weight: 400; 
+	}
+	.collection-titles p {
+		font-size: 40px;
+		line-height: 43px;
+	}
+	.collection-block {
+		display: block;
+		width: 100%;
+	}
+	.small-item {
+		height: 100%;
+	}
+	.collection-block li:hover .collection-title {
+		display: none;
+	}
+	.ww-img-box {
+		margin-bottom: 15px;
+	}
+	.ww-img-box,
+	.ww-text-box {
+		display: block;
+		width: 100%;
+	}
+	.ww-text {
+		text-align: justify;
+		height: 110px;
+		overflow: hidden;
+	}
+	.fotorama {
+		width: 100%;
+		height: auto;
+		margin-bottom: 40px;
+	}
+	.fotorama img {
+		width: 100%;
+	}
+	.shop-article {
+		width: 100%;
+		text-align: justify;
+		margin: 0;
+		font-size: 18px;
+		line-height: 21px;
+	}
+	.shop-article h3 {
+		font-size: 24px;
+		line-height: 27px;
+		margin-bottom: 20px;
+	}
+	.price-tag {
+		margin-bottom: 30px;
+	}
+	.shp-btn-block-1,
+	.shp-btn-block-2 {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.shp-btn-1,
+	.shp-btn-2 {
+		width: 300px;
+		margin-top: 75px;
+	}
+	.shop-table {
+		width: 300px;
+		text-align: left;
+		font-size: 10px;
+	}
+	.shop-table table {
+		width: auto;
+		font-size: 10px;
+	}
+	.shop-table h1,
+	.shop-table h2,
+	.shop-table p {
+		text-align: left;
+	}
+	.shop-table table th,
+	.shop-table table td {
+    	padding: 3px 5px;
+	}
+	.shp-btn-hov-1,
+	.shp-btn-hov-2 {
+		right: 0;
+		background-color: transparent;
+		height: 0;
+	}
+	.shp-btn-hov-1 p,
+	.shp-btn-hov-2 p {
+		display: none;
+	}
+	footer div {
+		display: block;
+		text-align: left;
+	}
+	footer div:first-of-type,
+	footer div:last-of-type {
+		width: 100%;
+	}
+	footer div:first-of-type {
+		margin-bottom: 15px;
+	}
+	footer div:last-of-type {
+		text-align: left;
+	}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+	.navigation-logo img {
+		width: 20%;
+	}
+	.menu-link {
+		display: inline-block;
+		text-align: right;
+		margin-top: 18px;
+	}
+	.dropdown-hamburger-menu {
+		top: 44px;
+	}
+	.logo {
+		display: block;
+		width: 225px;
+		margin: 60px auto;
+	}
+	.menu-link-1>a,
+	.menu-link-2>a,
+	.menu-link-3>a {
+		font-size: 11px;
+		line-height: 14px;
+	}
+	.small-item-1 p {
+		font-size: 12px;
+		line-height: 15px;
+	}
+	.shp-btn-hov-1,
+	.shp-btn-hov-2 {
+		right: 0;
+		background-color: transparent;
+		height: 0;
+	}
+	.shp-btn-hov-1 p,
+	.shp-btn-hov-2 p {
+		display: none;
+	}
+	footer {
+		display: none;
+	}
+}
